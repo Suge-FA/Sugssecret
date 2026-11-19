@@ -1,4 +1,4 @@
-import { faProjekt } from './projektwerte.js?v=20261114';
+import { faProjekt } from './projektwerte.js?v=20261119';
 
 const faSchalter = document.querySelector('[data-fa-menuschalter]');
 const faNavigation = document.querySelector('[data-fa-navigation]');

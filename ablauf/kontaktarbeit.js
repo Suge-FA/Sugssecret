@@ -1,5 +1,5 @@
-import { faZeilen, faSpeichern, faFunktion } from './zugang.js?v=20261114';
-import { faArbeitsstand, faElement, faKnopf, faBereichskopf, faIstVerwaltung, faPhasen, faPersonentext, faPersonenoptionen, faInhaltsoptionen, faMarkierung, faDatumstext, faGeldtext, faLeerzustand, faGefilterteTabelle, faTabelle, faBearbeiten, faDialogOeffnen, faGrundErfragen, faAusfuehren, faKurzMelden } from './arbeitsbausteine.js?v=20261114';
+import { faZeilen, faSpeichern, faFunktion } from './zugang.js?v=20261119';
+import { faArbeitsstand, faElement, faKnopf, faBereichskopf, faIstVerwaltung, faPhasen, faPersonentext, faPersonenoptionen, faInhaltsoptionen, faMarkierung, faDatumstext, faGeldtext, faLeerzustand, faGefilterteTabelle, faTabelle, faBearbeiten, faDialogOeffnen, faGrundErfragen, faAusfuehren, faKurzMelden } from './arbeitsbausteine.js?v=20261119';
 
 function faKontaktfelder() {
   return [

@@ -1,9 +1,9 @@
-import { faVerbindungBereit } from './projektwerte.js?v=20261114';
-import { faAnmelden, faAbmelden, faHatSitzung, faPasswortAnfordern, faPasswortErsetzen, faRueckkehrLesen, faFunktion, faZeilen } from './zugang.js?v=20261114';
-import { faArbeitsstand, faElement, faKnopf, faIstVerwaltung, faAufgaben, faLeerzustand, faKurzMelden } from './arbeitsbausteine.js?v=20261114';
-import { faUeberblickAnzeigen, faKontakteAnzeigen, faPartnerAnzeigen } from './kontaktarbeit.js?v=20261114';
-import { faTeamAnzeigen, faInhalteAnzeigen, faKampagnenAnzeigen, faBeitraegeAnzeigen, faLinksAnzeigen } from './teamarbeit.js?v=20261114';
-import { faZahlungenAnzeigen, faProvisionenAnzeigen, faAuszahlungenAnzeigen, faBerichtAnzeigen, faEinstellungenAnzeigen, faEreignisseAnzeigen } from './geldarbeit.js?v=20261114';
+import { faVerbindungBereit } from './projektwerte.js?v=20261119';
+import { faAnmelden, faAbmelden, faHatSitzung, faPasswortAnfordern, faPasswortErsetzen, faRueckkehrLesen, faFunktion, faZeilen } from './zugang.js?v=20261119';
+import { faArbeitsstand, faElement, faKnopf, faIstVerwaltung, faAufgaben, faLeerzustand, faKurzMelden } from './arbeitsbausteine.js?v=20261119';
+import { faUeberblickAnzeigen, faKontakteAnzeigen, faPartnerAnzeigen } from './kontaktarbeit.js?v=20261119';
+import { faTeamAnzeigen, faInhalteAnzeigen, faKampagnenAnzeigen, faBeitraegeAnzeigen, faLinksAnzeigen } from './teamarbeit.js?v=20261119';
+import { faZahlungenAnzeigen, faProvisionenAnzeigen, faAuszahlungenAnzeigen, faBerichtAnzeigen, faEinstellungenAnzeigen, faEreignisseAnzeigen } from './geldarbeit.js?v=20261119';
 
 const faZugangskarte = document.getElementById('fa-zugangsbereich');
 const faArbeitsbereich = document.getElementById('fa-arbeitsbereich');
