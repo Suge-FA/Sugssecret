@@ -1,4 +1,4 @@
-// Nur die Werte DEINES NEUEN Projekts einsetzen. Der öffentliche Schlüssel darf hier stehen.
+// Das eigene Projekt SugesFandA und sein öffentlicher Schlüssel.
 // Server-Schlüssel bleiben ausschließlich in den Geheimnissen der eigenen Edge Functions.
 export const faProjekt = Object.freeze({
   unternehmen: 'F&A Sales Consulting',
@@ -6,8 +6,8 @@ export const faProjekt = Object.freeze({
   postfach: 'info@fasalesconsulting.com',
   telefon: '+49 4442 9499987',
   webadresse: new URL('../', import.meta.url).href.replace(/\/$/, ''),
-  datenadresse: '',
-  oeffentlicherSchluessel: '',
+  datenadresse: 'https://vexjcjrtpbnggfspxyqu.supabase.co',
+  oeffentlicherSchluessel: 'sb_publishable_PV1T2kdO5pBCVPCjJS3xMg_M_1ANgxJ',
 });
 
 export function faVerbindungBereit() {

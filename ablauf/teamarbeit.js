@@ -1,6 +1,6 @@
-import { faProjekt } from './projektwerte.js?v=20261114';
-import { faZeilen, faEinladen } from './zugang.js?v=20261114';
-import { faArbeitsstand, faElement, faKnopf, faBereichskopf, faAufgaben, faMarkierung, faDatumstext, faGeldtext, faPersonentext, faPersonenoptionen, faInhaltsoptionen, faInhaltstext, faGefilterteTabelle, faBearbeiten, faAusfuehren, faKurzMelden, faDialogOeffnen } from './arbeitsbausteine.js?v=20261114';
+import { faProjekt } from './projektwerte.js?v=20261119';
+import { faZeilen, faEinladen } from './zugang.js?v=20261119';
+import { faArbeitsstand, faElement, faKnopf, faBereichskopf, faAufgaben, faMarkierung, faDatumstext, faGeldtext, faPersonentext, faPersonenoptionen, faInhaltsoptionen, faInhaltstext, faGefilterteTabelle, faBearbeiten, faAusfuehren, faKurzMelden, faDialogOeffnen } from './arbeitsbausteine.js?v=20261119';
 
 function faTeamBearbeiten(faAlt = {}) {
   const faRollen = Object.entries(faAufgaben).filter(([faCode]) => faCode !== 'inhaber' || faAlt.aufgabe === 'inhaber').filter(([faCode]) => faArbeitsstand.profil.aufgabe === 'inhaber' || !['inhaber', 'verwaltung'].includes(faCode));

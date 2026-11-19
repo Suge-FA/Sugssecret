@@ -1,4 +1,4 @@
-import { faProjekt, faVerbindungBereit } from './projektwerte.js?v=20261114';
+import { faProjekt, faVerbindungBereit } from './projektwerte.js?v=20261119';
 
 const faSpeichername = 'fa_teamzugang_neustart';
 let faSitzung = null;
